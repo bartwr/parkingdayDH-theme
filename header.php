@@ -64,12 +64,22 @@
       var clickNavItem = function(e) {
         // Make sure that the 'href' of <a href /> is ignored
         // by preventing default behaviour
-        e.preventDefault();
+        if( $(e.target).attr('href') == undefined ) {
+          e.preventDefault();
+        } else {
+          return true;
+        }
 
         // Get section based on the link you clicked on (<a data-section="sectionName" />)
         var section = $(e.target).data('section');
         // Find this section on the page (<div class="section-sectionName tailor-element" />)
         var elementToScrollTo = $('.section-' + section);
+
+        // If we are not on the home page: redirect to homepage
+        if(document.location.pathname != '/') {
+          document.location = '/#' + section;
+          return;
+        }
 
         // Now scroll to this section. 250 is the animation duration in milliseconds
         $('html, body').animate({
@@ -104,7 +114,7 @@
             <ul id="menu-menu" class="menu">
 
               <li class="menu-item"><a data-section="landing">Welkom</a></li>
-              <li class="menu-item"><a data-section="route">De route</a></li>
+              <li class="menu-item"><a href="/programma">Programma</a></li>
               <li class="menu-item"><a data-section="zo-werkt-het">Hoe werkt het?</a></li>
               <li class="menu-item"><a data-section="workshops">Workshops</a></li>
               <li class="menu-item"><a data-section="partners">Partners</a></li>
