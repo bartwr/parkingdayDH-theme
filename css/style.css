@@ -23,7 +23,7 @@ Text Domain: ParkingdayDenHaagTheme
 }
 
 @font-face {
-    font-family: 'GT Pressura';
+    font-family: 'GT Pressura Bold';
     src: url('../font/gt-pressura-bold-webfont.woff2') format('woff2'),
          url('../font/gt-pressura-bold-webfont.woff') format('woff');
     font-weight: bold;

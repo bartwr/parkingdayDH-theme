@@ -6,7 +6,7 @@
 
     <meta charset="utf-8">
     <meta name="keywords" content="parkingday, parking day, den haag, parkingdaydenhaag, parkingday den haag, parking day den haag, park day, parkday">
-    <meta name="description" content="Parkingday is een internationaal fenomeen, een jaarlijks terugkerende interventie waarbij wereldwijd bewoners, initiatieven, creatieven, ontwerpers en kunstenaars, voor één dag parkeerplekken ombouwen tot kleine publieke parken.">
+    <meta name="description" content="Parking Day is een internationaal fenomeen, een jaarlijks terugkerende interventie waarbij wereldwijd bewoners, initiatieven, creatieven, ontwerpers en kunstenaars, voor één dag parkeerplekken ombouwen tot kleine publieke parken.">
     <meta name="author" content="Janine Terlouw, Naomi Naus, LusthofXL">
 
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
