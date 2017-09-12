@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/css/menu.css" />
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/css/form.css" />
     <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/css/workshop.css" />
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/css/footer.css" />
 
     <link rel="shortcut icon" type="image/png" href="<?php bloginfo('template_directory');?>/img/favicon.png"/>
 
@@ -113,12 +114,12 @@
           <div class="menu-menu-container">
             <ul id="menu-menu" class="menu">
 
-              <li class="menu-item"><a data-section="landing">Welkom</a></li>
+              <li class="menu-item"><a href="/">Welkom</a></li>
               <li class="menu-item"><a href="/programma">Programma</a></li>
-              <li class="menu-item"><a data-section="zo-werkt-het">Hoe werkt het?</a></li>
-              <li class="menu-item"><a data-section="workshops">Workshops</a></li>
-              <li class="menu-item"><a data-section="partners">Partners</a></li>
-              <li class="menu-item"><a data-section="doe-mee">Doe mee!</a></li>
+              <li class="menu-item"><a href="/hoe-werkt-het">Hoe werkt het?</a></li>
+              <li class="menu-item"><a href="/workshops">Workshops</a></li>
+              <li class="menu-item"><a href="/sparks">Stralende Straten</a></li>
+              <li class="menu-item"><a href="/doe-mee">Doe mee!</a></li>
 
             </ul>
           </div>
