@@ -4,7 +4,7 @@
       <div id="footer">
         <div id="footer-content"> 
         
-          <div class="footer-text-bold" style="text-align: center;">Park[ing] Day is een interventie door LUSTHOFxl en DeBatMobiel</div>
+          <div class="footer-text-bold" style="text-align: center;">Park[ing] Day is een interventie door LUSTHOFxl, Janine Terlouw en Naomi Naus</div>
           <div class="footer-text-bold" style="text-align: center;">Park[ing] Day en Stralende Straten wordt mede mogelijk gemaakt door:</div>
           
           <div class="footer-logo-row">

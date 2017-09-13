@@ -308,6 +308,18 @@ hr {
   }
 }
 
+iframe {
+  max-width: 100%;
+}
+
+@media (max-width: 480px) {
+  iframe {
+    height: 150px !important;
+    max-width: 100% !important;
+  }
+}
+
+
 @media only screen and (min-width: 321px) {
 .tailor-ui .tablet-columns .tailor-column>:last-child {
     margin-bottom: 10px !important;
